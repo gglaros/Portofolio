@@ -1,21 +1,25 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import projectjava from "../assets/projectjava.webp";
+import photo from "../assets/photo.png";
+import devops from "../assets/devops.png";
+import django from "../assets/django.jpg";
 
 const projects = [
   {
     id: 1,
     title: "Rental Rooms",
     description: "A beautiful landing page app using java and springboot.",
-    image: "/projects/project1.png",
+    image: projectjava,
     tags: ["java", "springboot", "html"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/gglaros/javaProject",
   },
   {
     id: 2,
     title: "Full-Stack DevOps Information System",
     description:
     "A full-stack information system with Spring Boot, featuring authentication, database integration, email notifications, and a fully automated CI/CD pipeline using Docker, Kubernetes, Jenkins, and Ansible..",
-    image: "/projects/project2.png",
+    image: devops,
     tags: [" Spring Boot", "PostgreSQL", "Keycloak","Mailhog","Jenkins","Kubernetes"," Ansible playbooks"],
     demoUrl: "#",
     githubUrl: "https://github.com/gglaros/devops",
@@ -25,7 +29,7 @@ const projects = [
     title: "Full-Stack Web Application with Django & React",
     description:
       "djankoProject is a full-stack web application built with Django REST Framework and a React frontend. It includes JWT authentication, real-time CRUD operations, and a modular architecture optimized for scalability and modern development workflows.",
-    image: "/projects/project3.png",
+    image: django ,
     tags: ["React", "python", "djanko"],
     demoUrl: "#",
     githubUrl: "https://github.com/gglaros/djankoProject/tree/main",
@@ -100,7 +104,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/gglaros"
           >
             Check My Github <ArrowRight size={16} />
           </a>

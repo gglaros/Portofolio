@@ -16,16 +16,17 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+            As a Junior Web Developer, I am passionate about building responsive,
+            accessible, and user-friendly web applications while continuously learning
+            and improving my skills with modern technologies.
+
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+            I'm a Junior Web Developer passionate about creating clean and effective
+            solutions. I enjoy tackling challenges and continuously learning new
+            technologies to grow my skills in the fast-evolving web landscape.
+
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -72,21 +73,13 @@ export const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <div className="gradient-border p-6 card-hover">
+            {/* <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
+               
 
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
-                  <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
-                  </p>
-                </div>
+              
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
